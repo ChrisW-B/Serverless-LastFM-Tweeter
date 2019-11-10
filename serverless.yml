@@ -1,0 +1,10 @@
+service: serverless-lastfm-tweeter
+provider:
+  name: aws
+  runtime: nodejs10.x
+functions:
+  tweetMostPlayedArtists:
+    handler: lastfmtweeter.tweetMostPlayedArtists
+    events:
+      # 3pm every sunday, UTC
+      - schedule: cron(0 20 ? * SUN *)

@@ -18,10 +18,9 @@
   },
   "homepage": "https://github.com/ChrisW-B/LastFM-Tweeter#readme",
   "dependencies": {
-    "lastfm-njs": "^1.0.0",
-    "twitter": "^1.7.1",
-    "twitter-lite": "^0.9.4",
-    "winston": "^2.4.4"
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.0",
+    "twitter-lite": "^0.9.4"
   },
   "devDependencies": {
     "eslint": "^6.6.0",
@@ -29,6 +28,7 @@
     "eslint-config-prettier": "^6.5.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-unicorn": "^12.1.0",
     "prettier": "^1.18.2"
   },
   "scripts": {
